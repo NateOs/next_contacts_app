@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  position: fixed;
+  width: calc(100vw - 3em);
+  height: calc(20vh - 3em);
+  &__title {
+    font-size: $font-size-big;
+    font-weight: bold;
+    margin: 1em 0;
+  }
+  &__add {
+    border: none;
+    background: none;
+    color: $primary-blue;
+    font-size: calc($font-size-medium - .4em);
+  }
+}

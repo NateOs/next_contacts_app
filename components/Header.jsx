@@ -2,9 +2,9 @@ import React from "react";
 
 export default function Header() {
   return (
-    <header>
-      <h1>Recents</h1>
-      <button>Add</button>
+    <header className="header">
+      <h1 className="header__title">Recents</h1>
+      <button className="header__add">Add</button>
     </header>
   );
 }

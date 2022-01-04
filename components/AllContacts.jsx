@@ -12,9 +12,7 @@ export default function AllContacts() {
       <SingleContact />
       <SingleContact />
       <SingleContact />
-      <SingleContact />
-      <SingleContact />
-      <SingleContact />
+    
     </div>
   );
 }

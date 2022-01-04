@@ -4,10 +4,21 @@
   border: 1px solid #e6e6e6;
   border-left: 0px;
   border-right: 0px;
-  padding: .5em 0em;
+  padding: 0.5em 0em;
   &__delete {
     @extend .header__add;
     color: $primary-red;
     font-size: $font-size-small;
+  }
+
+  .contact {
+    &__name {
+      font-size: $font-size-medium;
+      font-weight: light;
+    }
+    &__number {
+      font-size: $font-size-small;
+      font-weight: bold;
+    }
   }
 }

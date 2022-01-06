@@ -44,6 +44,16 @@
     background-color: $primary-green;
     height: 3.25rem;
     font-size: calc($font-size-medium - 0.4em);
-    margin-top: 30%;
+    margin-top: 9em;
+  }
+  .save {
+    &:hover {
+      background-color: lighten($color: $primary-green, $amount: 10%);
+      scale: 1.5;
+      transition: all 0.1s ease-in-out;
+    }
+    &:active {
+      transform: scale(1.005);
+    }
   }
 }

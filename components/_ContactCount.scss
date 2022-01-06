@@ -1,8 +1,7 @@
 .contact-count {
-	position: fixed;
-	padding-bottom: 1.3em;
-	bottom: 0;
-	left: 25%;
-	width: 100%;
-	border: solid 1px #e6e6e6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1.3em;
+  padding-top: 1.3em;
 }

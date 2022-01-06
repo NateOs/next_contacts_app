@@ -5,6 +5,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Roboto", sans-serif;
+  position: relative;
 }
 
 a {
@@ -64,3 +65,4 @@ img {
 @import "../components/SingleContact";
 @import "../components/AllContacts";
 @import "../components/ContactCount";
+@import "../pages/contact";

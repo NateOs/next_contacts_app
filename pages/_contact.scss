@@ -1,0 +1,49 @@
+.back-btn {
+  color: $primary-red;
+  margin: 2em 0;
+  display: flex;
+  align-items: center;
+}
+
+.contact-page {
+  text-align: center;
+  margin-top: 15vh;
+
+  .profile-icon {
+    height: 6rem;
+    width: 6rem;
+    border: solid 1px #ccc;
+    border-radius: 50%;
+    background-color: $neutral-grey;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    & > * {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .form-control {
+    margin: 1rem auto;
+    border: solid $primary-blue 1.5px;
+    border-radius: 0.25rem;
+    height: 3.25rem;
+    width: 90%;
+    padding: 0.5em 0.7em;
+    font: 1.1rem/1.5em "Roboto", sans-serif;
+  }
+
+  .save {
+    border: solid $primary-green 1.5px;
+    border-radius: 0.25rem;
+    width: 90%;
+    color: white;
+    background-color: $primary-green;
+    height: 3.25rem;
+    font-size: calc($font-size-medium - 0.4em);
+    margin-top: 30%;
+  }
+}

@@ -5,6 +5,7 @@
   border-left: 0px;
   border-right: 0px;
   padding: 0.5em 0em;
+
   &__delete {
     @extend .header__add;
     color: $primary-red;
@@ -23,4 +24,8 @@
       color: $neutral-grey;
     }
   }
+}
+
+.single-contact:hover {
+background-color: #e6e6e6;
 }

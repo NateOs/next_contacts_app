@@ -2,7 +2,8 @@ import React from "react";
 import Link from "next/link";
 import { FaChevronLeft } from "react-icons/fa";
 
-export default function contact() {
+export default function contact({ id }) {
+  console.log(id);
   return (
     <div className="container">
       <div className="back-btn">
@@ -31,4 +32,12 @@ export default function contact() {
       </div>
     </div>
   );
+}
+
+export async function getServerSideProps(context) {
+  return {
+    props: {
+      id: context.query.id,
+    }, // will be passed to the page component as props
+  };
 }
